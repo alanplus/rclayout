@@ -28,8 +28,8 @@
             android:background="@color/colorBackground"
             app:clip_background="true"
             app:round_as_circle="true"
-            app:stroke_color="@color/colorPrimary"
-            app:stroke_width="@dimen/default_stroke_width">
+            app:rc_stroke_color="@color/colorPrimary"
+            app:rc_stroke_width="@dimen/default_stroke_width">
 
         </com.gcssloop.widget.RCRelativeLayout>
     </RelativeLayout>
@@ -56,8 +56,8 @@
             android:layout_width="@dimen/small_size_example_image"
             android:layout_height="@dimen/small_size_example_image"
             app:round_as_circle="true"
-            app:stroke_color="@color/colorPrimary"
-            app:stroke_width="@dimen/default_stroke_width">
+            app:rc_stroke_color="@color/colorPrimary"
+            app:rc_stroke_width="@dimen/default_stroke_width">
 
             <ImageView
                 android:layout_width="match_parent"
